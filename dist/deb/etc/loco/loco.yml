@@ -1,0 +1,27 @@
+sf:
+  lines:
+    - :
+      regex: " [^ ]+\\.DEBUG"
+      color: "cyan"
+    - :
+      regex: " [^ ]+\\.INFO"
+      color: "blue"
+    - :
+      regex: " [^ ]+\\.ERROR"
+      color: "red"
+    - :
+      regex: " [^ ]+\\.CRITICAL"
+      color: "red"
+    - :
+      regex: " [^ ]+\\.WARNING"
+      color: "yellow"
+  partials:
+    - :
+      regex: "\\[\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\]"
+      color: "green"
+    - :
+      regex: "\"[^\"]+\""
+      color: "light gray"
+    - :
+      regex: "'[^']+'"
+      color: "light gray"

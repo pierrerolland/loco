@@ -1,0 +1,9 @@
+Package: loco
+Version: 0.1
+Section: base
+Priority: optional
+Architecture: all
+Depends: bash
+Maintainer: Pierre Rolland <roll.pierre@gmail.com>
+Description: Provides joy to your logs
+Homepage: https://github.com/pierrerolland/loco
